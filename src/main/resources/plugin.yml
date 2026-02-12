@@ -1,0 +1,12 @@
+name: lvl-timelimit
+version: '1.0-SNAPSHOT'
+main: me.najian.lvlTimelimit.LvlTimelimit
+api-version: '1.21'
+
+commands:
+  timelimit:
+    description: محدودیت زمان بازی
+
+permissions:
+  lvl.timelimit.admin:
+    default: op
